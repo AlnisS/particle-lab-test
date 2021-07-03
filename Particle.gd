@@ -11,6 +11,10 @@ export var strength = 1.0
 func _ready():
 	$AnimatedSprite3D.frame = randi() % 27
 	linear_damp = 1.0
+	if strength < 0.0:
+		$AnimatedSprite3D.modulate = Color(0.8, 0.8, 1, 1)
+	else:
+		$AnimatedSprite3D.modulate = Color(1, 0.8, 0.8, 1)
 
 
 func _integrate_forces(state):
