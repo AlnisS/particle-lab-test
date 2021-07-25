@@ -1,0 +1,294 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Test Conductor.tscn" type="PackedScene" id=2]
+[ext_resource path="res://ParticleManager.gd" type="Script" id=3]
+[ext_resource path="res://Particle.tscn" type="PackedScene" id=4]
+
+[node name="Conductor Instance" type="Spatial"]
+
+[node name="Test Conductor" parent="." instance=ExtResource( 2 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0 )
+
+[node name="ParticleManager" type="Spatial" parent="."]
+script = ExtResource( 3 )
+
+[node name="Particle" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.92438, 1.11553 )
+can_sleep = false
+linear_velocity = Vector3( 0, 1, 0 )
+strength = 20.0
+
+[node name="Particle4" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, 0, 2.57447 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle2" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.569681, 0, 3.17049 )
+can_sleep = false
+linear_velocity = Vector3( 1, 0, 0 )
+
+[node name="Particle3" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.495193, 0, 3.17049 )
+can_sleep = false
+linear_velocity = Vector3( -1, 0, 1 )
+
+[node name="Particle6" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, 0.3, 2.57447 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle7" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.569681, 0.3, 3.17049 )
+can_sleep = false
+linear_velocity = Vector3( 1, 0, 0 )
+
+[node name="Particle8" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.495193, 0.3, 3.17049 )
+can_sleep = false
+linear_velocity = Vector3( -1, 0, 1 )
+
+[node name="Particle14" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, -0.6, 2.57447 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle15" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.569681, -0.6, 3.17049 )
+can_sleep = false
+linear_velocity = Vector3( 1, 0, 0 )
+
+[node name="Particle16" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.495193, -0.6, 3.17049 )
+can_sleep = false
+linear_velocity = Vector3( -1, 0, 1 )
+
+[node name="Particle18" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, -0.3, 2.57447 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle19" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.569681, -0.3, 3.17049 )
+can_sleep = false
+linear_velocity = Vector3( 1, 0, 0 )
+
+[node name="Particle20" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.495193, -0.3, 3.17049 )
+can_sleep = false
+linear_velocity = Vector3( -1, 0, 1 )
+
+[node name="Particle10" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, 0.6, 2.57447 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle11" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.569681, 0.6, 3.17049 )
+can_sleep = false
+linear_velocity = Vector3( 1, 0, 0 )
+
+[node name="Particle12" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.495193, 0.6, 3.17049 )
+can_sleep = false
+linear_velocity = Vector3( -1, 0, 1 )
+
+[node name="Particle22" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, 0, 3.67259 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle26" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, 0.3, 3.67259 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle30" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, -0.6, 3.67259 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle34" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, -0.3, 3.67259 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle38" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, 0.6, 3.67259 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle5" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.569681, 0, 3.56818 )
+can_sleep = false
+linear_velocity = Vector3( 1, 0, 0 )
+
+[node name="Particle43" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.495193, 0, 3.56818 )
+can_sleep = false
+linear_velocity = Vector3( -1, 0, 1 )
+
+[node name="Particle44" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.569681, 0.3, 3.56818 )
+can_sleep = false
+linear_velocity = Vector3( 1, 0, 0 )
+
+[node name="Particle45" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.495193, 0.3, 3.56818 )
+can_sleep = false
+linear_velocity = Vector3( -1, 0, 1 )
+
+[node name="Particle46" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.569681, -0.6, 3.56818 )
+can_sleep = false
+linear_velocity = Vector3( 1, 0, 0 )
+
+[node name="Particle47" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.495193, -0.6, 3.56818 )
+can_sleep = false
+linear_velocity = Vector3( -1, 0, 1 )
+
+[node name="Particle48" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.569681, -0.3, 3.56818 )
+can_sleep = false
+linear_velocity = Vector3( 1, 0, 0 )
+
+[node name="Particle49" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.495193, -0.3, 3.56818 )
+can_sleep = false
+linear_velocity = Vector3( -1, 0, 1 )
+
+[node name="Particle50" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.569681, 0.6, 3.56818 )
+can_sleep = false
+linear_velocity = Vector3( 1, 0, 0 )
+
+[node name="Particle51" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.495193, 0.6, 3.56818 )
+can_sleep = false
+linear_velocity = Vector3( -1, 0, 1 )
+
+[node name="Particle52" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, 0, 4.07028 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle53" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, 0.3, 4.07028 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle54" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, -0.6, 4.07028 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle55" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, -0.3, 4.07028 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle56" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, 0.6, 4.07028 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle9" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, 0, 2.02975 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle13" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.569681, 0, 2.62577 )
+can_sleep = false
+linear_velocity = Vector3( 1, 0, 0 )
+
+[node name="Particle17" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.495193, 0, 2.62577 )
+can_sleep = false
+linear_velocity = Vector3( -1, 0, 1 )
+
+[node name="Particle21" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, 0.3, 2.02975 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle23" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.569681, 0.3, 2.62577 )
+can_sleep = false
+linear_velocity = Vector3( 1, 0, 0 )
+
+[node name="Particle24" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.495193, 0.3, 2.62577 )
+can_sleep = false
+linear_velocity = Vector3( -1, 0, 1 )
+
+[node name="Particle25" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, -0.6, 2.02975 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle27" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.569681, -0.6, 2.62577 )
+can_sleep = false
+linear_velocity = Vector3( 1, 0, 0 )
+
+[node name="Particle28" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.495193, -0.6, 2.62577 )
+can_sleep = false
+linear_velocity = Vector3( -1, 0, 1 )
+
+[node name="Particle29" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, -0.3, 2.02975 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle31" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.569681, -0.3, 2.62577 )
+can_sleep = false
+linear_velocity = Vector3( 1, 0, 0 )
+
+[node name="Particle32" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.495193, -0.3, 2.62577 )
+can_sleep = false
+linear_velocity = Vector3( -1, 0, 1 )
+
+[node name="Particle33" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, 0.6, 2.02975 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle35" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.569681, 0.6, 2.62577 )
+can_sleep = false
+linear_velocity = Vector3( 1, 0, 0 )
+
+[node name="Particle36" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.495193, 0.6, 2.62577 )
+can_sleep = false
+linear_velocity = Vector3( -1, 0, 1 )
+
+[node name="Particle37" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, 0, 3.12787 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle39" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, 0.3, 3.12787 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle40" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, -0.6, 3.12787 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle41" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, -0.3, 3.12787 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
+
+[node name="Particle42" parent="ParticleManager" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104807, 0.6, 3.12787 )
+can_sleep = false
+linear_velocity = Vector3( 0, -1, -1 )
